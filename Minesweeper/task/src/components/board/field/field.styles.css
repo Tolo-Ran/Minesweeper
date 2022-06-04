@@ -1,0 +1,54 @@
+.field {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 0.6fr);
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.target {
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./target.svg);
+}
+
+.fired {
+    box-shadow: 0 0 16px red;
+    background-position: center;
+    background-image: url(./fired.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.cell:disabled {
+    background-color: #212121;
+    box-shadow: 0 0 15px red;
+}
+
+.fired:disabled {
+    background-position: center;
+    box-shadow: 0 0 16px red;
+    background-image: url(./fired.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.exploded:disabled {
+    background-position: center;
+    background-color: #121212;
+    box-shadow: 0 0 16px red;
+    background-image: url(./fired.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+

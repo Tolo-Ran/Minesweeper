@@ -1,0 +1,21 @@
+.game-header {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+}
+
+@keyframes spin {
+    100% {transform: rotate(360deg);}
+}
+.game-logo-animation {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    animation: spin 10s linear infinite;
+}
+.banner-container {
+    float: left;
+    display: inline-flex;
+    width: 100%;
+}

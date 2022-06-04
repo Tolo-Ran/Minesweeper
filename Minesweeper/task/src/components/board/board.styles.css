@@ -1,0 +1,11 @@
+.board-container {
+    width: 300px;
+    min-width: 300px;
+    height: 420px;
+    background-color: #212121;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: #121212 solid;
+    border-radius: 10px;
+}
